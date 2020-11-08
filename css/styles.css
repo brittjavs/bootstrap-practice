@@ -134,9 +134,26 @@ padding: 0 18px;
     padding: 3% 2%;
 }
 
+/* CTA Section */
+
+#cta{
+    background-color: #ff4c68;
+    color: white;
+    text-align: center;
+    padding: 7% 15%;
+}
+
 /* Footer Section */
 
+#footer{
+    background-color: white;
+    padding: 7% 15%;
+    text-align: center;
+}
 
+.media-icon{
+    margin: 20px 10px;
+}
 
 /* Media Queries */
 @media (max-width: 1028px){
