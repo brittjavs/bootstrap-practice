@@ -1,23 +1,9 @@
 body{
     font-family: 'Montserrat';
+    text-align: center;
 }
 
-h1{
-    font-family: 'Montserrat';
-    font-weight: 900;
-    font-size: 3.5rem;
-    line-height: 1.5;
-}
-
-h2{
-    font-size: 3rem;
-    font-family: 'Montserrat';
-    font-weight: bold;
-    line-height: 1.5;
-}
-
-h3{
-    font-size: 1.5rem;
+h1, h2, h3, h4, h5, h6{
     font-family: 'Montserrat';
     font-weight: bold;
 }
@@ -27,12 +13,23 @@ p{
 }
 
 .container-fluid{
-    padding: 3% 15% 7%;
+    padding: 7% 15%;
 }
 
-#title{
+
+.big-heading{
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+.color{
     background-color: #ff4c68;
     color: white;
+}
+
+.white{
+    background-color: white;
 }
 
 /* Nav Bar */
@@ -55,6 +52,14 @@ padding: 0 18px;
     font-size: 1.2rem;
 }
 
+#title{
+    text-align: left;
+}
+
+#title .container-fluid{
+    padding: 3% 15% 7%;
+}
+
 /* Download Buttons */
 
 .download-btn{
@@ -73,14 +78,14 @@ padding: 0 18px;
 /* Features section */
 
 #features{
-    padding: 7% 15%;
-    background-color: white;
     position: relative;
+}
 
+.feature-title{
+    font-size: 1.5rem;
 }
 
 .feature-box{
-    text-align: center;
     padding: 5%;
 }
 
@@ -96,8 +101,6 @@ padding: 0 18px;
 /* Testimonial Section */
 
 #testimonials{
-    padding: 7% 15%;
-    text-align: center;
     background-color: #ef8172;
     color: white;
 }
@@ -108,13 +111,13 @@ padding: 0 18px;
     margin: 20px;
 }
 
-.carousel-item{
-    padding: 7% 15%;
+.testimonial-text{
+    font-size: 3rem;
+    line-height: 1.5;
 }
 
 #press{
     background-color: #ef8172;
-    text-align: center;
     padding-bottom: 3%;
 }
 
@@ -127,28 +130,21 @@ padding: 0 18px;
 
 #pricing{
     padding: 100px;
-    text-align: center;
 }
 
 .pricing-column{
     padding: 3% 2%;
 }
 
-/* CTA Section */
-
-#cta{
-    background-color: #ff4c68;
-    color: white;
-    text-align: center;
-    padding: 7% 15%;
+.price-text{
+    font-size: 3rem;
+    line-height: 1.5;
 }
 
 /* Footer Section */
 
 #footer{
     background-color: white;
-    padding: 7% 15%;
-    text-align: center;
 }
 
 .media-icon{
